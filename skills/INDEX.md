@@ -7,6 +7,7 @@
 
 | 模块 | 摘要 |
 |------|------|
+| [anti-cheat-systems](anti-cheat/SKILL.md) | Guide for modern game anti-cheat architecture, Windows kernel monitoring, and detection tradeoffs. Use this skill when analyzing EAC, BattlEye, Vanguard, FAC... |
 | [api-security](api-security/SKILL.md) | Use for authorized security assessment of REST, GraphQL, WebSocket, or SOAP APIs, including discovery, authentication, authorization, rate-limit, and CI/CD t... |
 | [apk-reverse](apk-reverse/SKILL.md) | 在 CLI 环境下做 Android APK 逆向时使用。适用于 APK 解包、Java 反编译、smali 修改、重打包、Frida 动态 Hook，以及按需切换到 so/native 分析。优先使用本机已安装的 jadx、apktool、frida、adb、ida-reverse、radare2。 |
 | [attack-chain](attack-chain/SKILL.md) | Use for authorized multi-stage attack-path planning and orchestration when a task spans reconnaissance, initial access, privilege escalation, lateral movemen... |
@@ -25,7 +26,14 @@
 | [dotnet-reverse](dotnet-reverse/SKILL.md) | .NET / C# 二进制逆向。当目标是 .NET assembly（PE 头含 CLR、.exe/.dll 托管程序）、C# 编译产物（含 NativeAOT）、红队 Sharp* 工具（Rubeus / SharpHound / SharpHound 等）、.NET 混淆程序（ConfuserEx / Sma... |
 | [edr-bypass-re](edr-bypass-re/SKILL.md) | 逆向防御方实现 → 红队针对性绕过。把 EDR / Defender / AV 的 hook 表、ETW provider、AMSI 实现先逆向出来， |
 | [email-security](email-security/SKILL.md) | Use for authorized email security review including phishing analysis, header authentication (SPF/DKIM/DMARC), BEC patterns, and mailbox token abuse research. |
+| [eni-game-cheat-lab-workflow](eni-game-cheat-lab-workflow/SKILL.md) | "自动全链路处理外挂、修改器、Trainer、作弊机制与反作弊验证任务。适用于离线、自有、开源或专用测试靶场中的引擎与信任边界建模、样本分析、可控复现、JSON toy trainer 制作、遥测、检测加固和回归交付。" |
+| [eni-game-hacking](eni-game-hacking/SKILL.md) | "[DOCUMENTATION ONLY] [仅文档] 全局自动路由 \| Game hacking techniques" |
+| [eni-game-security](eni-game-security/SKILL.md) | 全局自动路由 \| Defensive game security and cheat research covering external and internal cheat architecture, trainers, memory tampering, ESP/overlay, aim automatio... |
 | [firmware-pentest](firmware-pentest/SKILL.md) | 固件 / IoT 渗透链。从拿到一坨 .bin / .img 开始，闭环走完逆向 → 提取 → 模拟 → 利用。 |
+| [game-assets](game-assets/SKILL.md) | Create, edit, upgrade, animate, and prepare production-ready game assets with Meowa, including pixel and HD sprites, consistent item or character variants, m... |
+| [game-cheat](game-cheat/SKILL.md) | Game client engineering: process memory, injection, rendering, input, detection evasion. Trigger: cheat, trainer, aimbot, esp, wallhack, speedhack, game hack... |
+| [game-engine-resources](game-engine/SKILL.md) | Guide for game-engine internals, source trees, plugins, and engine-specific security research. Use this skill when researching Unreal, Unity, Source, Godot, ... |
+| [game-hacking-techniques](game-hacking/SKILL.md) | Guide for game-hacking technique taxonomy and threat modeling relevant to game security. Use this skill when researching memory access, code injection, overl... |
 | [ghidra-reverse](ghidra-reverse/SKILL.md) | Use for free/open reverse engineering with Ghidra (headless or GUI), including decompile, cross-refs, and optional Ghidra MCP workflows when IDA is unavailable. |
 | [go-rust-reverse](go-rust-reverse/SKILL.md) | Use for reverse engineering stripped Go and Rust binaries including runtime recognition, pclntab/moduel data recovery, panic strings, and idiomatic decompila... |
 | [hardware-security](hardware-security/SKILL.md) | Use for authorized hardware and embedded interface security research including UART/JTAG discovery, debug pad triage, secure boot overview, and offline firmw... |
@@ -35,6 +43,7 @@
 | [llm-security](llm-security/SKILL.md) | Use for authorized security assessment of LLM applications and AI agents, including prompt injection, tool abuse, RAG exposure, memory poisoning, and model s... |
 | [macos-reverse](macos-reverse/SKILL.md) | Use for authorized macOS and Mach-O reverse engineering including codesign, Objective-C/Swift recovery, endpoint security surfaces, and Apple platform malwar... |
 | [malware-analysis](malware-analysis/SKILL.md) | Use when analyzing suspected malware through static, dynamic, and behavioral techniques, including IOC extraction, YARA or Sigma rules, sandboxing, and anti-... |
+| [mobile-competitive-game-security](mobile-competitive-game-security/SKILL.md) | Mobile competitive-game security research for 和平精英、王者荣耀、PUBG Mobile、Honor of Kings、Game for Peace and similar Android/iOS titles. Use when Codex receives an ... |
 | [mobile-reverse](mobile-reverse/SKILL.md) | Use for authorized Android or iOS application reverse engineering and security testing, including APK or IPA analysis, runtime instrumentation, SSL pinning, ... |
 | [ot-ics](ot-ics/SKILL.md) | Use for authorized OT/ICS security assessment covering Purdue model zoning, PLC/SCADA exposure, industrial protocol discovery, and safe passive-first evaluat... |
 | [patch-diff-exploit](patch-diff-exploit/SKILL.md) | N-day 补丁差分到利用。从厂商发布的补丁里反推漏洞点、写 PoC、做成可用的攻击模块。 |
@@ -46,6 +55,10 @@
 | [radio-sdr](radio-sdr/SKILL.md) | Use for authorized RF/SDR security research including signal identification, replay feasibility study in shielded labs, and wireless protocol analysis outsid... |
 | [dsl-vm-reverse](reverse-engineering/dsl-vm-reverse/SKILL.md) | Reverse JavaScript-based custom DSL/VM interpreters, non-standard WASM-like runtimes, and risk-control engines. Use when analyzing IIFE or switch-based opcod... |
 | [reverse-engineering](reverse-engineering/SKILL.md) | Provides reverse engineering techniques. Use when the main job is to understand how a compiled, obfuscated, packed, or virtualized target works before exploi... |
+| [seagull-anticheat](seagull-anticheat/SKILL.md) | Game anti-cheat surface mapping and bypass-research force-start for ACE/miHoYo/Unity/Unreal targets. Use when the operator asks for 反作弊绕过、过检测、ACE、Vanguard、Ba... |
+| [seagull-game-hack](seagull-game-hack/SKILL.md) | Game runtime analysis and interactive overlay research — process memory structure recovery, entity-component inspection, coordinate projection visualization,... |
+| [seagull-game-redteam](seagull-game-redteam/SKILL.md) | Red-team game-security force-start for ESP/overlay, external/kernel memory read, ACE/anti-cheat surface mapping, IL2CPP/native engine recovery, inject/manual... |
+| [seagull-game-security](seagull-game-security/SKILL.md) | Defensive game security and cheat research covering external and internal cheat architecture, trainers, memory tampering, ESP/overlay, aim automation, inject... |
 | [supply-chain-security](supply-chain-security/SKILL.md) | Use for software supply-chain security assessment covering SBOM, SCA, CI/CD pipelines, container images, build integrity, dependency provenance, and vulnerab... |
 | [thick-client](thick-client/SKILL.md) | Use for authorized security testing of desktop thick clients including local storage, update channels, IPC, traffic, and client-side trust boundaries. |
 | [threat-hunting](threat-hunting/SKILL.md) | Use for blue-team threat hunting, detection engineering with Sigma/YARA, SIEM query design, and incident detection validation. |
@@ -56,6 +69,7 @@
 ## 目录树
 
 ```
+skills/anti-cheat/SKILL.md/
 skills/api-security/SKILL.md/
 skills/apk-reverse/SKILL.md/
 skills/attack-chain/SKILL.md/
@@ -74,7 +88,14 @@ skills/docs-generator/SKILL.md/
 skills/dotnet-reverse/SKILL.md/
 skills/edr-bypass-re/SKILL.md/
 skills/email-security/SKILL.md/
+skills/eni-game-cheat-lab-workflow/SKILL.md/
+skills/eni-game-hacking/SKILL.md/
+skills/eni-game-security/SKILL.md/
 skills/firmware-pentest/SKILL.md/
+skills/game-assets/SKILL.md/
+skills/game-cheat/SKILL.md/
+skills/game-engine/SKILL.md/
+skills/game-hacking/SKILL.md/
 skills/ghidra-reverse/SKILL.md/
 skills/go-rust-reverse/SKILL.md/
 skills/hardware-security/SKILL.md/
@@ -84,6 +105,7 @@ skills/js-reverse/SKILL.md/
 skills/llm-security/SKILL.md/
 skills/macos-reverse/SKILL.md/
 skills/malware-analysis/SKILL.md/
+skills/mobile-competitive-game-security/SKILL.md/
 skills/mobile-reverse/SKILL.md/
 skills/ot-ics/SKILL.md/
 skills/patch-diff-exploit/SKILL.md/
@@ -95,6 +117,10 @@ skills/radare2/SKILL.md/
 skills/radio-sdr/SKILL.md/
 skills/reverse-engineering/dsl-vm-reverse/SKILL.md/
 skills/reverse-engineering/SKILL.md/
+skills/seagull-anticheat/SKILL.md/
+skills/seagull-game-hack/SKILL.md/
+skills/seagull-game-redteam/SKILL.md/
+skills/seagull-game-security/SKILL.md/
 skills/supply-chain-security/SKILL.md/
 skills/thick-client/SKILL.md/
 skills/threat-hunting/SKILL.md/

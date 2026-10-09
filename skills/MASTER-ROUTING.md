@@ -121,6 +121,11 @@ python3 skills/case-review/scripts/review_case.py work/<case> --verify-hashes --
 | **R20** | 报告 / writeup | `docs-generator/` |
 | **R39** | 图表 / Mermaid / Graphviz / PlantUML / 架构图 | `diagram-generator/` |
 | **R41** | CTF / AWD / 靶场（单入口，不展开 40 个子技能） | `ctf-sandbox/` |
+| **R46** | 游戏外挂 / 修改器 / Trainer / 作弊机制 | `eni-game-cheat-lab-workflow/` |
+| **R47** | ESP / Overlay / 自瞄 / 实体内存（游戏红队） | `seagull-game-redteam/` |
+| **R48** | 反作弊面测绘 / 检测绕过 / 反外挂防御 | `seagull-anticheat/` |
+| **R49** | 手游竞技安全（和平精英 / 王者 / PUBGM） | `mobile-competitive-game-security/` |
+| **R50** | 游戏引擎 / 游戏逆向技法分类 | `game-hacking/` |
 | **R0** | 通用逆向 / 反调试 / OLLVM / 未知二进制 | `reverse-engineering/` |
 
 未命中强关键词 → PRIMARY=`R0`，并提示打开 `routing.md`（歧义附录，不是第二套路由器）。

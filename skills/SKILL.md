@@ -79,6 +79,12 @@ description: Routes reverse engineering, exploitation, penetration testing, malw
 | **邮件安全** | `email-security/` | 钓鱼拆解、SPF/DKIM/DMARC、BEC |
 | **联邦身份** | `identity-federation/` | SAML/OIDC/OAuth SSO 流与错配 |
 | **RF / SDR** | `radio-sdr/` | 授权射频研究、默认只收 |
+| **游戏外挂全链路** | `eni-game-cheat-lab-workflow/` `eni-game-hacking/` | 修改器 / Trainer / 作弊机制建模、引擎与信任边界、可控复现、JSON toy trainer、遥测与反作弊验证 |
+| **游戏客户端工程** | `game-cheat/` | 进程内存、注入、渲染层、输入、检测规避 |
+| **ESP / Overlay 红队** | `seagull-game-redteam/` `seagull-game-hack/` | ESP/overlay、外部与内核内存读、ACE 绕过研究、运行时结构与实体内存恢复 |
+| **反作弊面测绘 / 防御** | `seagull-anticheat/` `anti-cheat/` `seagull-game-security/` `eni-game-security/` | ACE/miHoYo/Unity/Unreal 反作弊面、内核监控与检测权衡、防御侧架构与轨迹 |
+| **引擎与手游竞技** | `game-engine/` `mobile-competitive-game-security/` | 引擎源码树/插件/引擎安全研究；和平精英、王者荣耀、PUBG Mobile 等手游竞技安全 |
+| **游戏技法总表 / 素材** | `game-hacking/` `game-assets/` | 逆向技法分类与威胁建模（references/evals/scripts）；游戏素材生产（与安全无关） |
 
 ## 统一入口
 

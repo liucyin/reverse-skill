@@ -35,6 +35,10 @@ Route tasks to the most appropriate skill module by target type, user intent, an
 | Windows AD / Kerberos / AD CS | `windows-ad/` | multi-stage: `attack-chain/` |
 | Source code / SAST | `code-audit/` | deps/CI: `supply-chain-security/` |
 | Game client (Unity/UE) | `reverse-engineering/` + seed-014 | `dotnet-reverse/` for Mono assemblies |
+| Game cheat / trainer (offline lab) | `eni-game-cheat-lab-workflow/` — 外挂/修改器/Trainer 全链路 + 可控复现 | `game-cheat/` — 客户端内存/注入/渲染面 |
+| Game ESP / overlay / 自瞄 | `seagull-game-redteam/` — ESP/overlay、实体内存恢复 | `seagull-game-hack/` — 结构恢复与偏移定位 |
+| Game anti-cheat surface | `seagull-anticheat/` | `anti-cheat/`（内核监控与检测权衡）、`seagull-game-security/` |
+| Mobile competitive game | `mobile-competitive-game-security/` — 和平精英/王者/PUBGM | `mobile-reverse/` — Frida/Objection 侧 |
 | OT / ICS / SCADA | `ot-ics/` | `firmware-pentest/` offline firmware |
 | macOS / Mach-O desktop | `macos-reverse/` | iOS → `mobile-reverse/` |
 | Thick desktop client | `thick-client/` | Electron → also `js-reverse/` |

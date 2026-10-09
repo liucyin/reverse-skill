@@ -318,6 +318,41 @@
         { "must": "binary.?ninja|binaryninja|\\bbinja\\b|binary[_-]ninja[_-]mcp|hlil|mlil", "note": "Binary Ninja GUI, IL, Python API, MCP, or localhost HTTP integration" }
       ]
     },
+    "R46": {
+      "label": "Game cheat / trainer lab",
+      "skill": "eni-game-cheat-lab-workflow/SKILL.md",
+      "keywords": [
+        { "must": "游戏.?外挂|外挂.?开发|外挂.?分析|作弊.?机制|修改器|\\btrainer\\b|toy.?trainer|cheat.?engine|锁血|无敌|秒杀|加速.?挂|脚本.?挂|辅助.?工具.?游戏|单机.?修改器", "exclude": "\\bml\\b|machine.?learning|模型|训练|torch|tensorflow|深度.?学习", "note": "外挂/修改器/Trainer 制作与验证；ML trainer 语境排除" }
+      ]
+    },
+    "R47": {
+      "label": "Game ESP / overlay red team",
+      "skill": "seagull-game-redteam/SKILL.md",
+      "keywords": [
+        { "must": "\\besp\\b|自瞄|透视|方框.?透视|aimbot|\\bw2s\\b|world.?to.?screen|游戏.?overlay|实体.?内存|实体.?结构.?恢复|驱动.?读写|内核.?读写.?游戏|ace.?绕过|注入.?游戏", "note": "ESP/overlay、实体内存结构恢复、ACE 绕过研究" }
+      ]
+    },
+    "R48": {
+      "label": "Anti-cheat surface / defense",
+      "skill": "seagull-anticheat/SKILL.md",
+      "keywords": [
+        { "must": "反作弊|anti.?cheat|anticheat|easy.?anti|\\beac\\b|battleye|vanguard|\\bvgk\\b|tenprotect|tp.?保护|反外挂|封号|检测.?绕过.?游戏|反作弊.?驱动", "note": "反作弊面测绘、内核监控与检测权衡、防御侧研究" }
+      ]
+    },
+    "R49": {
+      "label": "Mobile competitive game security",
+      "skill": "mobile-competitive-game-security/SKILL.md",
+      "keywords": [
+        { "must": "和平精英|王者荣耀|pubg.?mobile|honor.?of.?kings|手游.?安全|竞技.?手游|手游.?反作弊|mobile.?game.?hack", "note": "手游竞技安全；Unity/IL2CPP 泛逆向仍归 R0" }
+      ]
+    },
+    "R50": {
+      "label": "Game engine / hacking taxonomy",
+      "skill": "game-hacking/SKILL.md",
+      "keywords": [
+        { "must": "游戏.?引擎|game.?engine|ue4|ue5|unreal|game.?hack|游戏.?技法|作弊.?分类|外挂.?类型|游戏.?安全.?威胁|威胁.?建模.?游戏", "note": "引擎内部与游戏逆向技法分类（泛 Unity 逆向走 R0 + seed-014）" }
+      ]
+    },
     "R0": {
       "label": "General reverse-engineering",
       "skill": "reverse-engineering/SKILL.md",
@@ -332,6 +367,6 @@
     "R4", "R1", "R2", "R3", "R30", "R31", "R33", "R5", "R9", "R21",
     "R22", "R45", "R6", "R7", "R8", "R34", "R28", "R17", "R16", "R18", "R24",
     "R37", "R23", "R35", "R25", "R44", "R36", "R29", "R38", "R32", "R26", "R27",
-    "R10", "R11", "R12", "R13", "R14", "R15", "R19", "R40", "R20", "R39", "R41", "R0"
+    "R10", "R11", "R12", "R13", "R14", "R15", "R19", "R40", "R20", "R39", "R41", "R46", "R47", "R48", "R49", "R50", "R0"
   ]
 }

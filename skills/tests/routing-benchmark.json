@@ -895,6 +895,56 @@
       "hint": "Twitter marketing sentiment for our product",
       "expect": "R0",
       "quick": false
+    },
+    {
+      "hint": "给本地离线的 Unity 游戏做一个外部修改器（Trainer）",
+      "expect": "R46",
+      "quick": true
+    },
+    {
+      "hint": "外挂修改器 Trainer 制作与可控复现",
+      "expect": "R46",
+      "quick": false
+    },
+    {
+      "hint": "ESP overlay 的 world to screen 坐标绘制研究",
+      "expect": "R47",
+      "quick": true
+    },
+    {
+      "hint": "内核读写 ACE 绕过可行性研究",
+      "expect": "R47",
+      "quick": false
+    },
+    {
+      "hint": "反作弊面测绘与封号原因分析",
+      "expect": "R48",
+      "quick": true
+    },
+    {
+      "hint": "BattlEye 反作弊驱动内核监控与检测权衡",
+      "expect": "R48",
+      "quick": false
+    },
+    {
+      "hint": "和平精英 与 王者荣耀 竞技手游安全",
+      "expect": "R49",
+      "quick": true
+    },
+    {
+      "hint": "王者荣耀 PUBG Mobile 竞技手游安全面梳理",
+      "expect": "R49",
+      "quick": false
+    },
+    {
+      "hint": "游戏引擎内部结构与外挂类型分类",
+      "expect": "R50",
+      "quick": true
+    },
+    {
+      "hint": "ue5 游戏引擎结构与 game hacking 技法分类",
+      "expect": "R50",
+      "quick": false
     }
   ]
 }
